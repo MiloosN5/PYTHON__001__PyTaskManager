@@ -42,20 +42,20 @@
         - Each task is a dictionary with keys for the name and completion status.
     - ***Dictionary {}***
         - Each task is represented as a dictionary with fields like 'name' and 'completed'.
-- **Running Locally**
-    1. Clone or Download the Repository
-    2. Set Up a Virtual Environment (Optional)
-        ```bash
-            python -m venv venv
-            venv\Scripts\activate # on Windows
-        ```
-    3. Install Dependencies
-        ```bash
-            pip install -r requirements.txt
-        ```
-    4. Run the Application
-        ```
-            python main.py
-        ```
-    5. Enter a number in the terminal
-    6. Enjoy! 😊
+## Running Locally
+1. Clone or Download the Repository
+2. Set Up a Virtual Environment (Optional)
+    ```bash
+        python -m venv venv
+        venv\Scripts\activate # on Windows
+    ```
+3. Install Dependencies
+    ```bash
+        pip install -r requirements.txt
+    ```
+4. Run the Application
+    ```
+        python main.py
+    ```
+5. Enter a number in the terminal
+6. Enjoy! 😊
