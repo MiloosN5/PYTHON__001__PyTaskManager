@@ -50,6 +50,8 @@
         venv\Scripts\activate # on Windows
     ```
 3. Install Dependencies
+
+   Before installing dependencies, make sure your virtual environment is activated (see step 2 from above)!
     ```bash
         pip install -r requirements.txt
     ```
@@ -59,3 +61,14 @@
     ```
 5. Enter a number in the terminal
 6. Enjoy! 😊
+
+***Additional:***
+
+7. Update requirements.txt When You Add New Packages
+
+    Whenever you install a new package (e.g. with pip install package-name), make sure to refresh your requirements.txt so others can install the same dependencies.
+
+    Run this command to update the file:
+    ```bash
+        pip freeze > requirements.txt
+    ```
