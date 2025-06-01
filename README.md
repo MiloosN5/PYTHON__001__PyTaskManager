@@ -43,7 +43,12 @@
     - ***Dictionary {}***
         - Each task is represented as a dictionary with fields like 'name' and 'completed'.
 ## Running Locally
-1. Clone or Download the Repository
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/MiloosN5/PYTHON__001__PyTaskManager.git
+   cd PYTHON__001__PyTaskManager
+   
 2. Set Up a Virtual Environment (Optional)
     ```bash
         python -m venv venv
@@ -66,7 +71,7 @@
 
 7. Update requirements.txt When You Add New Packages
 
-    Whenever you install a new package (e.g. with pip install package-name), make sure to refresh your requirements.txt so others can install the same dependencies.
+    Whenever you install a new package (e.g. with pip install package-name), make sure to refresh your requirements.txt.
 
     Run this command to update the file:
     ```bash
